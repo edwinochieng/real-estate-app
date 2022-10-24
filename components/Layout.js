@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
+import Navbar from './Navbar'
 
 const Layout = ({children}) => {
   return (
@@ -8,7 +9,7 @@ const Layout = ({children}) => {
             <title>Real Estate App</title>
         </Head>
         <header>
-            Navbar
+            <Navbar/>
         </header>
         <main>
             {children}
