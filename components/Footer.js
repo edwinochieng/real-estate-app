@@ -4,8 +4,8 @@ const Footer = () => {
     const date = new Date().getFullYear();
 
   return (
-    <div className = "w-full flex justify-center items-center border border-t-gray-200">
-        <div>{date}  Realtor, Inc</div>
+    <div className = "w-full flex justify-center py-1 sm:py-2 items-center border-t-[1px] border-t-gray-200">
+        <div>{date}  DreamHome, Inc</div>
     </div>
   )
 }
